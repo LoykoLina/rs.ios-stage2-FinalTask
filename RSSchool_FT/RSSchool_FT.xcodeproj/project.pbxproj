@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA423C7724F32626003CE9ED /* LoadingFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA423C7624F32626003CE9ED /* LoadingFooter.m */; };
+		CA423C7B24F32D1B003CE9ED /* FLAVRConvertingController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA423C7924F32D1B003CE9ED /* FLAVRConvertingController.m */; };
+		CA423C7C24F32D1B003CE9ED /* FLAVRConvertingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA423C7A24F32D1B003CE9ED /* FLAVRConvertingController.xib */; };
+		CA423C8424F331BB003CE9ED /* FLAVRSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA423C8224F331BB003CE9ED /* FLAVRSearchController.m */; };
+		CA423C8524F331BB003CE9ED /* FLAVRSearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA423C8324F331BB003CE9ED /* FLAVRSearchController.xib */; };
+		CA423C8C24F46575003CE9ED /* FLAVRIngredient.m in Sources */ = {isa = PBXBuildFile; fileRef = CA423C8B24F46575003CE9ED /* FLAVRIngredient.m */; };
+		CA42AA2024EEF96000874CAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA1F24EEF96000874CAF /* AppDelegate.m */; };
+		CA42AA2324EEF96000874CAF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA2224EEF96000874CAF /* SceneDelegate.m */; };
+		CA42AA2C24EEF96000874CAF /* RSSchool_FT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA2A24EEF96000874CAF /* RSSchool_FT.xcdatamodeld */; };
+		CA42AA2E24EEF96200874CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA42AA2D24EEF96200874CAF /* Assets.xcassets */; };
+		CA42AA3124EEF96200874CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA42AA2F24EEF96200874CAF /* LaunchScreen.storyboard */; };
+		CA42AA3424EEF96200874CAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA3324EEF96200874CAF /* main.m */; };
+		CA42AA3E24EF075700874CAF /* FLAVRCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA3C24EF075700874CAF /* FLAVRCollectionCell.m */; };
+		CA42AA3F24EF075700874CAF /* FLAVRCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA42AA3D24EF075700874CAF /* FLAVRCollectionCell.xib */; };
+		CA42AA4224EF128500874CAF /* FLAVRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA4124EF128500874CAF /* FLAVRTabBarController.m */; };
+		CA42AA4624EF12D900874CAF /* FLAVRHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA4524EF12D900874CAF /* FLAVRHomeController.m */; };
+		CA42AA4A24EF134900874CAF /* FLAVRRecipeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA4824EF134900874CAF /* FLAVRRecipeController.m */; };
+		CA42AA4B24EF134900874CAF /* FLAVRRecipeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA42AA4924EF134900874CAF /* FLAVRRecipeController.xib */; };
+		CA42AA4E24EF142600874CAF /* FLAVRFavoritesController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA4D24EF142600874CAF /* FLAVRFavoritesController.m */; };
+		CA42AA5224EF146D00874CAF /* FLAVRParserJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA5124EF146D00874CAF /* FLAVRParserJSON.m */; };
+		CA42AA5524EF148300874CAF /* FLAVRWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA5424EF148300874CAF /* FLAVRWebService.m */; };
+		CA42AA5924EF14E500874CAF /* ImageDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA5824EF14E500874CAF /* ImageDownloadOperation.m */; };
+		CA42AA5C24EF152A00874CAF /* FLAVRRecipesListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA42AA5B24EF152A00874CAF /* FLAVRRecipesListController.m */; };
+		CA58F78525004690007760CE /* FLAVRFavoriteRecipe+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CA58F78325004690007760CE /* FLAVRFavoriteRecipe+CoreDataClass.m */; };
+		CA58F78625004690007760CE /* FLAVRFavoriteRecipe+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CA58F78425004690007760CE /* FLAVRFavoriteRecipe+CoreDataProperties.m */; };
+		CA7CCA8825019C5500923B50 /* FLAVRSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7CCA8725019C5500923B50 /* FLAVRSearchResultController.m */; };
+		CA85B8AE24F6D9C100F53EE3 /* NSArray+CookingUnits.m in Sources */ = {isa = PBXBuildFile; fileRef = CA85B8AD24F6D9C100F53EE3 /* NSArray+CookingUnits.m */; };
+		CA9D58E525024E35002F7267 /* FLAVRImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9D58E425024E35002F7267 /* FLAVRImageService.m */; };
+		CA9D58E8250406DA002F7267 /* NSArray+DishTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9D58E7250406DA002F7267 /* NSArray+DishTypes.m */; };
+		CAC677D424F18CA30072F79C /* FLAVRRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC677D324F18CA30072F79C /* FLAVRRecipe.m */; };
+		CAFE880D253B60A500FA50ED /* FLAVRDataCoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFE880C253B60A500FA50ED /* FLAVRDataCoreService.m */; };
+		CAFE8815253B87C200FA50ED /* FLAVRAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFE8814253B87C200FA50ED /* FLAVRAlertManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA423C7524F32626003CE9ED /* LoadingFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingFooter.h; sourceTree = "<group>"; };
+		CA423C7624F32626003CE9ED /* LoadingFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingFooter.m; sourceTree = "<group>"; };
+		CA423C7824F32D1B003CE9ED /* FLAVRConvertingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRConvertingController.h; sourceTree = "<group>"; };
+		CA423C7924F32D1B003CE9ED /* FLAVRConvertingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRConvertingController.m; sourceTree = "<group>"; };
+		CA423C7A24F32D1B003CE9ED /* FLAVRConvertingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLAVRConvertingController.xib; sourceTree = "<group>"; };
+		CA423C8124F331BB003CE9ED /* FLAVRSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRSearchController.h; sourceTree = "<group>"; };
+		CA423C8224F331BB003CE9ED /* FLAVRSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRSearchController.m; sourceTree = "<group>"; };
+		CA423C8324F331BB003CE9ED /* FLAVRSearchController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLAVRSearchController.xib; sourceTree = "<group>"; };
+		CA423C8A24F46575003CE9ED /* FLAVRIngredient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRIngredient.h; sourceTree = "<group>"; };
+		CA423C8B24F46575003CE9ED /* FLAVRIngredient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRIngredient.m; sourceTree = "<group>"; };
+		CA42AA1B24EEF96000874CAF /* RSSchool_FT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_FT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA42AA1E24EEF96000874CAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA42AA1F24EEF96000874CAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA42AA2124EEF96000874CAF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CA42AA2224EEF96000874CAF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CA42AA2B24EEF96000874CAF /* RSSchool_FT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSSchool_FT.xcdatamodel; sourceTree = "<group>"; };
+		CA42AA2D24EEF96200874CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA42AA3024EEF96200874CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA42AA3224EEF96200874CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA42AA3324EEF96200874CAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA42AA3B24EF075700874CAF /* FLAVRCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRCollectionCell.h; sourceTree = "<group>"; };
+		CA42AA3C24EF075700874CAF /* FLAVRCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRCollectionCell.m; sourceTree = "<group>"; };
+		CA42AA3D24EF075700874CAF /* FLAVRCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLAVRCollectionCell.xib; sourceTree = "<group>"; };
+		CA42AA4024EF128500874CAF /* FLAVRTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRTabBarController.h; sourceTree = "<group>"; };
+		CA42AA4124EF128500874CAF /* FLAVRTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRTabBarController.m; sourceTree = "<group>"; };
+		CA42AA4424EF12D900874CAF /* FLAVRHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRHomeController.h; sourceTree = "<group>"; };
+		CA42AA4524EF12D900874CAF /* FLAVRHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRHomeController.m; sourceTree = "<group>"; };
+		CA42AA4724EF134900874CAF /* FLAVRRecipeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRRecipeController.h; sourceTree = "<group>"; };
+		CA42AA4824EF134900874CAF /* FLAVRRecipeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRRecipeController.m; sourceTree = "<group>"; };
+		CA42AA4924EF134900874CAF /* FLAVRRecipeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLAVRRecipeController.xib; sourceTree = "<group>"; };
+		CA42AA4C24EF142600874CAF /* FLAVRFavoritesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRFavoritesController.h; sourceTree = "<group>"; };
+		CA42AA4D24EF142600874CAF /* FLAVRFavoritesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRFavoritesController.m; sourceTree = "<group>"; };
+		CA42AA5024EF146D00874CAF /* FLAVRParserJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRParserJSON.h; sourceTree = "<group>"; };
+		CA42AA5124EF146D00874CAF /* FLAVRParserJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRParserJSON.m; sourceTree = "<group>"; };
+		CA42AA5324EF148300874CAF /* FLAVRWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRWebService.h; sourceTree = "<group>"; };
+		CA42AA5424EF148300874CAF /* FLAVRWebService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRWebService.m; sourceTree = "<group>"; };
+		CA42AA5724EF14E500874CAF /* ImageDownloadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloadOperation.h; sourceTree = "<group>"; };
+		CA42AA5824EF14E500874CAF /* ImageDownloadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDownloadOperation.m; sourceTree = "<group>"; };
+		CA42AA5A24EF152A00874CAF /* FLAVRRecipesListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRRecipesListController.h; sourceTree = "<group>"; };
+		CA42AA5B24EF152A00874CAF /* FLAVRRecipesListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRRecipesListController.m; sourceTree = "<group>"; };
+		CA58F78125004690007760CE /* FLAVRFavoriteRecipe+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLAVRFavoriteRecipe+CoreDataProperties.h"; sourceTree = SOURCE_ROOT; };
+		CA58F78225004690007760CE /* FLAVRFavoriteRecipe+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLAVRFavoriteRecipe+CoreDataClass.h"; sourceTree = SOURCE_ROOT; };
+		CA58F78325004690007760CE /* FLAVRFavoriteRecipe+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FLAVRFavoriteRecipe+CoreDataClass.m"; sourceTree = SOURCE_ROOT; };
+		CA58F78425004690007760CE /* FLAVRFavoriteRecipe+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FLAVRFavoriteRecipe+CoreDataProperties.m"; sourceTree = SOURCE_ROOT; };
+		CA7CCA8625019C5500923B50 /* FLAVRSearchResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRSearchResultController.h; sourceTree = "<group>"; };
+		CA7CCA8725019C5500923B50 /* FLAVRSearchResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRSearchResultController.m; sourceTree = "<group>"; };
+		CA85B8AC24F6D9C100F53EE3 /* NSArray+CookingUnits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+CookingUnits.h"; sourceTree = "<group>"; };
+		CA85B8AD24F6D9C100F53EE3 /* NSArray+CookingUnits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CookingUnits.m"; sourceTree = "<group>"; };
+		CA9D58E325024E35002F7267 /* FLAVRImageService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRImageService.h; sourceTree = "<group>"; };
+		CA9D58E425024E35002F7267 /* FLAVRImageService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRImageService.m; sourceTree = "<group>"; };
+		CA9D58E6250406DA002F7267 /* NSArray+DishTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+DishTypes.h"; sourceTree = "<group>"; };
+		CA9D58E7250406DA002F7267 /* NSArray+DishTypes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DishTypes.m"; sourceTree = "<group>"; };
+		CAC677D224F18CA30072F79C /* FLAVRRecipe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRRecipe.h; sourceTree = "<group>"; };
+		CAC677D324F18CA30072F79C /* FLAVRRecipe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRRecipe.m; sourceTree = "<group>"; };
+		CAFE880B253B60A500FA50ED /* FLAVRDataCoreService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRDataCoreService.h; sourceTree = "<group>"; };
+		CAFE880C253B60A500FA50ED /* FLAVRDataCoreService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRDataCoreService.m; sourceTree = "<group>"; };
+		CAFE8813253B87C200FA50ED /* FLAVRAlertManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAVRAlertManager.h; sourceTree = "<group>"; };
+		CAFE8814253B87C200FA50ED /* FLAVRAlertManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAVRAlertManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA42AA1824EEF96000874CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA423C7424F325C0003CE9ED /* Load footer */ = {
+			isa = PBXGroup;
+			children = (
+				CA423C7524F32626003CE9ED /* LoadingFooter.h */,
+				CA423C7624F32626003CE9ED /* LoadingFooter.m */,
+			);
+			path = "Load footer";
+			sourceTree = "<group>";
+		};
+		CA423C7D24F3312E003CE9ED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CA42AA4424EF12D900874CAF /* FLAVRHomeController.h */,
+				CA42AA4524EF12D900874CAF /* FLAVRHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CA423C7E24F33146003CE9ED /* Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				CA423C7824F32D1B003CE9ED /* FLAVRConvertingController.h */,
+				CA423C7924F32D1B003CE9ED /* FLAVRConvertingController.m */,
+				CA423C7A24F32D1B003CE9ED /* FLAVRConvertingController.xib */,
+			);
+			path = Conversion;
+			sourceTree = "<group>";
+		};
+		CA423C7F24F33156003CE9ED /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CA7CCA8525019BEB00923B50 /* Search result controller */,
+				CA423C8124F331BB003CE9ED /* FLAVRSearchController.h */,
+				CA423C8224F331BB003CE9ED /* FLAVRSearchController.m */,
+				CA423C8324F331BB003CE9ED /* FLAVRSearchController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CA423C8024F33162003CE9ED /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				CA42AA4C24EF142600874CAF /* FLAVRFavoritesController.h */,
+				CA42AA4D24EF142600874CAF /* FLAVRFavoritesController.m */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		CA42AA1224EEF96000874CAF = {
+			isa = PBXGroup;
+			children = (
+				CA42AA1D24EEF96000874CAF /* RSSchool_FT */,
+				CA42AA1C24EEF96000874CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA42AA1C24EEF96000874CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA42AA1B24EEF96000874CAF /* RSSchool_FT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA42AA1D24EEF96000874CAF /* RSSchool_FT */ = {
+			isa = PBXGroup;
+			children = (
+				CAFE8812253B879300FA50ED /* Alert view */,
+				CA42AA4024EF128500874CAF /* FLAVRTabBarController.h */,
+				CA42AA4124EF128500874CAF /* FLAVRTabBarController.m */,
+				CA42AA5F24EF160400874CAF /* Recipes list */,
+				CA42AA4324EF129900874CAF /* Tabs */,
+				CA42AA5E24EF15DB00874CAF /* Recipe info */,
+				CA42AA4F24EF143D00874CAF /* Parser */,
+				CA42AA5624EF149100874CAF /* Service */,
+				CA85B8AB24F6D95E00F53EE3 /* Category */,
+				CAC677D124F18C880072F79C /* Model */,
+				CA42AA3A24EEF99E00874CAF /* Support */,
+				CA42AA2D24EEF96200874CAF /* Assets.xcassets */,
+				CA42AA3224EEF96200874CAF /* Info.plist */,
+				CA42AA2A24EEF96000874CAF /* RSSchool_FT.xcdatamodeld */,
+			);
+			path = RSSchool_FT;
+			sourceTree = "<group>";
+		};
+		CA42AA3A24EEF99E00874CAF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CA42AA2F24EEF96200874CAF /* LaunchScreen.storyboard */,
+				CA42AA1E24EEF96000874CAF /* AppDelegate.h */,
+				CA42AA1F24EEF96000874CAF /* AppDelegate.m */,
+				CA42AA2124EEF96000874CAF /* SceneDelegate.h */,
+				CA42AA2224EEF96000874CAF /* SceneDelegate.m */,
+				CA42AA3324EEF96200874CAF /* main.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CA42AA4324EF129900874CAF /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				CA423C7424F325C0003CE9ED /* Load footer */,
+				CA423C7D24F3312E003CE9ED /* Home */,
+				CA423C8024F33162003CE9ED /* Favorites */,
+				CA423C7E24F33146003CE9ED /* Conversion */,
+				CA423C7F24F33156003CE9ED /* Search */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		CA42AA4F24EF143D00874CAF /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				CA42AA5024EF146D00874CAF /* FLAVRParserJSON.h */,
+				CA42AA5124EF146D00874CAF /* FLAVRParserJSON.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		CA42AA5624EF149100874CAF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CA42AA5324EF148300874CAF /* FLAVRWebService.h */,
+				CA42AA5424EF148300874CAF /* FLAVRWebService.m */,
+				CAFE880B253B60A500FA50ED /* FLAVRDataCoreService.h */,
+				CAFE880C253B60A500FA50ED /* FLAVRDataCoreService.m */,
+				CA42AA5724EF14E500874CAF /* ImageDownloadOperation.h */,
+				CA42AA5824EF14E500874CAF /* ImageDownloadOperation.m */,
+				CA9D58E325024E35002F7267 /* FLAVRImageService.h */,
+				CA9D58E425024E35002F7267 /* FLAVRImageService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CA42AA5D24EF15B500874CAF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CA42AA3B24EF075700874CAF /* FLAVRCollectionCell.h */,
+				CA42AA3C24EF075700874CAF /* FLAVRCollectionCell.m */,
+				CA42AA3D24EF075700874CAF /* FLAVRCollectionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CA42AA5E24EF15DB00874CAF /* Recipe info */ = {
+			isa = PBXGroup;
+			children = (
+				CA42AA4724EF134900874CAF /* FLAVRRecipeController.h */,
+				CA42AA4824EF134900874CAF /* FLAVRRecipeController.m */,
+				CA42AA4924EF134900874CAF /* FLAVRRecipeController.xib */,
+			);
+			path = "Recipe info";
+			sourceTree = "<group>";
+		};
+		CA42AA5F24EF160400874CAF /* Recipes list */ = {
+			isa = PBXGroup;
+			children = (
+				CA42AA5D24EF15B500874CAF /* Cells */,
+				CA42AA5A24EF152A00874CAF /* FLAVRRecipesListController.h */,
+				CA42AA5B24EF152A00874CAF /* FLAVRRecipesListController.m */,
+			);
+			path = "Recipes list";
+			sourceTree = "<group>";
+		};
+		CA58F77424FFDBA4007760CE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CA58F78125004690007760CE /* FLAVRFavoriteRecipe+CoreDataProperties.h */,
+				CA58F78225004690007760CE /* FLAVRFavoriteRecipe+CoreDataClass.h */,
+				CA58F78325004690007760CE /* FLAVRFavoriteRecipe+CoreDataClass.m */,
+				CA58F78425004690007760CE /* FLAVRFavoriteRecipe+CoreDataProperties.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CA7CCA8525019BEB00923B50 /* Search result controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA7CCA8625019C5500923B50 /* FLAVRSearchResultController.h */,
+				CA7CCA8725019C5500923B50 /* FLAVRSearchResultController.m */,
+			);
+			path = "Search result controller";
+			sourceTree = "<group>";
+		};
+		CA85B8AB24F6D95E00F53EE3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CA85B8AC24F6D9C100F53EE3 /* NSArray+CookingUnits.h */,
+				CA85B8AD24F6D9C100F53EE3 /* NSArray+CookingUnits.m */,
+				CA9D58E6250406DA002F7267 /* NSArray+DishTypes.h */,
+				CA9D58E7250406DA002F7267 /* NSArray+DishTypes.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CAC677D124F18C880072F79C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA58F77424FFDBA4007760CE /* CoreData */,
+				CAC677D224F18CA30072F79C /* FLAVRRecipe.h */,
+				CAC677D324F18CA30072F79C /* FLAVRRecipe.m */,
+				CA423C8A24F46575003CE9ED /* FLAVRIngredient.h */,
+				CA423C8B24F46575003CE9ED /* FLAVRIngredient.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAFE8812253B879300FA50ED /* Alert view */ = {
+			isa = PBXGroup;
+			children = (
+				CAFE8813253B87C200FA50ED /* FLAVRAlertManager.h */,
+				CAFE8814253B87C200FA50ED /* FLAVRAlertManager.m */,
+			);
+			path = "Alert view";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA42AA1A24EEF96000874CAF /* RSSchool_FT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA42AA3724EEF96200874CAF /* Build configuration list for PBXNativeTarget "RSSchool_FT" */;
+			buildPhases = (
+				CA42AA1724EEF96000874CAF /* Sources */,
+				CA42AA1824EEF96000874CAF /* Frameworks */,
+				CA42AA1924EEF96000874CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSchool_FT;
+			productName = RSSchool_FT;
+			productReference = CA42AA1B24EEF96000874CAF /* RSSchool_FT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA42AA1324EEF96000874CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Lina Loyko";
+				TargetAttributes = {
+					CA42AA1A24EEF96000874CAF = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = CA42AA1624EEF96000874CAF /* Build configuration list for PBXProject "RSSchool_FT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA42AA1224EEF96000874CAF;
+			productRefGroup = CA42AA1C24EEF96000874CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA42AA1A24EEF96000874CAF /* RSSchool_FT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA42AA1924EEF96000874CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA423C7C24F32D1B003CE9ED /* FLAVRConvertingController.xib in Resources */,
+				CA42AA3F24EF075700874CAF /* FLAVRCollectionCell.xib in Resources */,
+				CA42AA4B24EF134900874CAF /* FLAVRRecipeController.xib in Resources */,
+				CA423C8524F331BB003CE9ED /* FLAVRSearchController.xib in Resources */,
+				CA42AA3124EEF96200874CAF /* LaunchScreen.storyboard in Resources */,
+				CA42AA2E24EEF96200874CAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA42AA1724EEF96000874CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA42AA4624EF12D900874CAF /* FLAVRHomeController.m in Sources */,
+				CA42AA5524EF148300874CAF /* FLAVRWebService.m in Sources */,
+				CA42AA3424EEF96200874CAF /* main.m in Sources */,
+				CAC677D424F18CA30072F79C /* FLAVRRecipe.m in Sources */,
+				CA423C7B24F32D1B003CE9ED /* FLAVRConvertingController.m in Sources */,
+				CA42AA5C24EF152A00874CAF /* FLAVRRecipesListController.m in Sources */,
+				CA42AA5924EF14E500874CAF /* ImageDownloadOperation.m in Sources */,
+				CA42AA5224EF146D00874CAF /* FLAVRParserJSON.m in Sources */,
+				CA423C7724F32626003CE9ED /* LoadingFooter.m in Sources */,
+				CA9D58E8250406DA002F7267 /* NSArray+DishTypes.m in Sources */,
+				CA85B8AE24F6D9C100F53EE3 /* NSArray+CookingUnits.m in Sources */,
+				CA7CCA8825019C5500923B50 /* FLAVRSearchResultController.m in Sources */,
+				CAFE8815253B87C200FA50ED /* FLAVRAlertManager.m in Sources */,
+				CA42AA3E24EF075700874CAF /* FLAVRCollectionCell.m in Sources */,
+				CA42AA4224EF128500874CAF /* FLAVRTabBarController.m in Sources */,
+				CA42AA2024EEF96000874CAF /* AppDelegate.m in Sources */,
+				CAFE880D253B60A500FA50ED /* FLAVRDataCoreService.m in Sources */,
+				CA42AA2C24EEF96000874CAF /* RSSchool_FT.xcdatamodeld in Sources */,
+				CA58F78525004690007760CE /* FLAVRFavoriteRecipe+CoreDataClass.m in Sources */,
+				CA423C8424F331BB003CE9ED /* FLAVRSearchController.m in Sources */,
+				CA58F78625004690007760CE /* FLAVRFavoriteRecipe+CoreDataProperties.m in Sources */,
+				CA423C8C24F46575003CE9ED /* FLAVRIngredient.m in Sources */,
+				CA42AA2324EEF96000874CAF /* SceneDelegate.m in Sources */,
+				CA9D58E525024E35002F7267 /* FLAVRImageService.m in Sources */,
+				CA42AA4A24EF134900874CAF /* FLAVRRecipeController.m in Sources */,
+				CA42AA4E24EF142600874CAF /* FLAVRFavoritesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA42AA2F24EEF96200874CAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA42AA3024EEF96200874CAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA42AA3524EEF96200874CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA42AA3624EEF96200874CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA42AA3824EEF96200874CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X72RL872QP;
+				INFOPLIST_FILE = RSSchool_FT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lina.loyko.RSSchool-FT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA42AA3924EEF96200874CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X72RL872QP;
+				INFOPLIST_FILE = RSSchool_FT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lina.loyko.RSSchool-FT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA42AA1624EEF96000874CAF /* Build configuration list for PBXProject "RSSchool_FT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA42AA3524EEF96200874CAF /* Debug */,
+				CA42AA3624EEF96200874CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA42AA3724EEF96200874CAF /* Build configuration list for PBXNativeTarget "RSSchool_FT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA42AA3824EEF96200874CAF /* Debug */,
+				CA42AA3924EEF96200874CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA42AA2A24EEF96000874CAF /* RSSchool_FT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA42AA2B24EEF96000874CAF /* RSSchool_FT.xcdatamodel */,
+			);
+			currentVersion = CA42AA2B24EEF96000874CAF /* RSSchool_FT.xcdatamodel */;
+			path = RSSchool_FT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA42AA1324EEF96000874CAF /* Project object */;
+}
